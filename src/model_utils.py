@@ -9,9 +9,12 @@ def pickle_sk_model(
     """
     Save a scikit-learn model to a file using pickle.
 
-    Parameters:
-    model: The scikit-learn model to save.
-    filename: The name of the file to save the model to.
+    Parameters
+    ----------
+    model
+        The scikit-learn model to save.
+    filename
+        The name of the file to save the model to.
     """
 
     if os.path.exists(filename) and not overwrite_if_exists:
@@ -28,10 +31,14 @@ def unpickle_sk_model(filename: str) -> Any:
     """
     Load a scikit-learn model from a file using pickle.
 
-    Parameters:
-    filename: The name of the file to load the model from.
+    Parameters
+    ----------
+    filename
+        The name of the file to load the model from.
 
-    Returns:
+    Returns
+    -------
+    model
         The loaded scikit-learn model.
 
     """

@@ -13,10 +13,12 @@
 
 To reproduce our results:
 
+
 1. Clone this repository to your local machine.
 
 ```bash
 git clone https://github.com/kyleosung/CAS_Meeting_2025.git
+cd CAS_Meeting_2025
 ```
 
 2. Install the required packages.
