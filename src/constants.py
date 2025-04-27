@@ -8,6 +8,7 @@ MODEL_DIR = BASE_DIR / "./models"
 IMG_DIR = BASE_DIR / "./img"
 
 ORIGINAL_DATASET = DATA_DIR / "Predictive Modeling Dataset.csv"
+DATA_CLEANED = DATA_DIR / "data_cleaned.csv"
 
 COVERAGE_TYPES = [
     "Personal Property",
