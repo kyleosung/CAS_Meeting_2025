@@ -13,21 +13,22 @@
 
 To reproduce our results:
 
+1. Make sure Python and Git are installed.
 
-1. Clone this repository to your local machine.
+2. Clone this repository to your local machine.
 
 ```bash
 git clone https://github.com/kyleosung/CAS_Meeting_2025.git
 cd CAS_Meeting_2025
 ```
 
-2. Install the required packages.
+3. Install the required packages.
 
 ```bash
 pip install -r installation/requirements.txt
 ```
 
-3. Download the distributed data files and place them one level up from the repository folder, in a directory called `data`.
+4. Download the distributed data files and place them one level up from the repository folder, in a directory called `data`.
 
 ```bash
 mkdir ../data
