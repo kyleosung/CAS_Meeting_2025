@@ -32,5 +32,5 @@ pip install -r installation/requirements.txt
 
 ```bash
 mkdir ../data
-mv <path_to_downloaded_files> ../data  # modify as needed
+mv <path_to_downloaded_files> ../data  # replace with your path
 ```
