@@ -24,7 +24,7 @@ def pickle_sk_model(
 
     with open(filename, "wb") as file:
         pickle.dump(model, file)
-    print(f"Model saved to {filename}.")
+    print(f"Model saved.")
 
 
 def unpickle_sk_model(filename: str) -> Any:
